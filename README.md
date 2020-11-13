@@ -24,3 +24,5 @@ def regression_loss(y_true, y_pred):
     loss = tf.math.reduce_mean(dist_vector)
     return loss
 ```
+
+Because of space limitation for github (100MB), the weights are under releases section (check tags)
